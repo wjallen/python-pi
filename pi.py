@@ -3,7 +3,7 @@ from random import random as r
 
 def main():
     num_inside = 0
-    num_tries = 100000
+    num_tries = 10000000
 
     for i in range(num_tries):
         if (((r()**2)+(r()**2)) < 1):
